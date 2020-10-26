@@ -1,8 +1,15 @@
-import React from 'react'
-<<<<<<< HEAD
-super dima
-=======
-super
-prvit
->>>>>>> c8f4f89aebd06b28a6c639f2aee6456b47586ac0
-jttttt
+import React from 'react';
+import {View} from 'react-native';
+import TabNavigator from 'react-native-tab-navigator';
+
+export default function App() {
+    return (
+      <View >
+        <TabNavigator>
+            <TabNavigator.Item>
+                <Text>Hi</Text>
+            </TabNavigator.Item>
+        </TabNavigator>
+      </View>
+    );
+  }
