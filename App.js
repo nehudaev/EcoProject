@@ -1,14 +1,13 @@
-import React from 'react';
-import {View} from 'react-native';
-import { createStackNavigator, createMaterialTopTabNavigator, createAppContainer } from 'react-navigation';
-import {NewsPage} from './Tabs/News/News';
-import {MapPage} from './Tabs/Map/Map';
+import 'react-native-gesture-handler';
+import * as React from 'react';
+import { NavigationContainer } from '@react-navigation/native';
 
-const TabScreen = createMaterialTopTabNavigator(
-  {
-    News: {screen: NewsPage},
-    Map: {screen: MapPage},
-  }
-)
+const App = () => {
+  return (
+    <NavigationContainer>
+      {/* Rest of your app code */}
+    </NavigationContainer>
+  );
+};
 
-export default createAppContainer (App);
+export default App;
