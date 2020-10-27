@@ -9,7 +9,7 @@ import { NavigationContainer } from '@react-navigation/native';
 function HomeScreen() {
   return (
     <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Text>Home!</Text>
+      <Text>dsff!</Text>
     </View>
   );
 }
