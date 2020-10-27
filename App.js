@@ -1,15 +1,13 @@
 import React from 'react';
 import {View} from 'react-native';
-import TabNavigator from 'react-native-tab-navigator';
+import { createStackNavigator, createMaterialTopTabNavigator, createAppContainer } from 'react-navigation';
+import {} from '';
 
-export default function App() {
-    return (
-      <View >
-        <TabNavigator>
-            <TabNavigator.Item>
-                <Text>Hi</Text>
-            </TabNavigator.Item>
-        </TabNavigator>
-      </View>
-    );
+const TabScreen = createMaterialTopTabNavigator(
+  {
+    News: {screen: NewsPage},
+    Map: {screen: MapPage},
   }
+)
+
+export default createAppContainer (App);
