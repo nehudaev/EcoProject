@@ -5,11 +5,14 @@ import { Text, View } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { NavigationContainer } from '@react-navigation/native';
+import {News} from './Tabs/News/News'
 
 function HomeScreen() {
   return (
     <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Text>dsff!</Text>
+      <Text>
+        <News />
+      </Text>
     </View>
   );
 }
