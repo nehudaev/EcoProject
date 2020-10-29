@@ -6,7 +6,7 @@ import { Ionicons } from '@expo/vector-icons';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { NavigationContainer } from '@react-navigation/native';
 import {News} from './Tabs/News/News';
-import {Map} from './Tabs/Map/Map';
+import {Maps} from './Tabs/Map/Map';
 
 function HomeScreen() {
   return (
@@ -22,7 +22,7 @@ function SettingsScreen() {
   return (
     <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
       <Text>
-        <Map />
+        <Maps />
       </Text>
     </View>
   );
