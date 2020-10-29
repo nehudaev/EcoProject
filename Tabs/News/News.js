@@ -1,5 +1,5 @@
 import React from 'react'
-import {View, Button, SafeAreaView, Text} from 'react-native';
+import {View, Button, SafeAreaView, Text, StyleSheet, ScrollView} from 'react-native';
 
 export const News = props => {
     return(

@@ -28,5 +28,18 @@
   "devDependencies": {
     "@babel/core": "~7.9.0"
   },
-  "private": true
+  "private": true,
+  "name": "ecoproject",
+  "description": "Just project",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nehudaev/EcoProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nehudaev/EcoProject/issues"
+  },
+  "homepage": "https://github.com/nehudaev/EcoProject#readme"
 }
