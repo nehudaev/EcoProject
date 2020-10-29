@@ -1,9 +1,10 @@
-import React from 'react'
+import React, {Component} from 'react'
+import { render } from 'react-dom';
 import {View, Button, SafeAreaView, Text, StyleSheet, ScrollView, Image, Dimensions} from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
 
-export const News = props => {
-    return(
+export  const Maps = props => {     
+    return(        
         <SafeAreaView style={styles.MainContainer}>
       <ScrollView>
         <Text style={styles.textTitle}>Статьи:</Text>
@@ -31,11 +32,12 @@ export const News = props => {
            </View>
         </View>
        </ScrollView>
-  </SafeAreaView>
+        </SafeAreaView>
 
     
 
     )
+ 
 }
 
 const styles = StyleSheet.create({
