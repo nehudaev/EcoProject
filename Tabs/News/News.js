@@ -1,9 +1,8 @@
-import React  from 'react'
+import React from 'react';
 import {View, Button, SafeAreaView, Text, StyleSheet, ScrollView, Image, Dimensions} from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
 
-export default class News extends React.Component {
-render () {     
+export  const Maps = props => {     
     return(        
         <SafeAreaView style={styles.MainContainer}>
       <ScrollView>
@@ -37,7 +36,7 @@ render () {
     
 
     )
-}
+ 
 }
 
 const styles = StyleSheet.create({
