@@ -2,11 +2,11 @@ import React from 'react';
 import {View, Button, SafeAreaView, Text, StyleSheet, ScrollView, Image, Dimensions} from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
 
-export  const Maps = props => {     
+export  const News = props => {     
     return(        
         <SafeAreaView style={styles.MainContainer}>
       <ScrollView>
-        <Text style={styles.textTitle}>Статьи:</Text>
+        <Text style={styles.textTitle}>Новости:</Text>
 
         <View style={styles.postContainer}>
            <Image
