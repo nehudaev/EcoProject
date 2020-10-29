@@ -11,9 +11,9 @@ import {Maps} from './Tabs/Map/Map';
 function HomeScreen() {
   return (
     <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Text>
+      <Tab>
         <News />
-      </Text>
+      </Tab>
     </View>
   );
 }
