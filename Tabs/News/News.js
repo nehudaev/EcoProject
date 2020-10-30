@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Header, Content, Tab, Tabs } from 'native-base';
-
+import { Container, Header, Tab, Tabs, TabHeading, Icon, Text } from 'native-base';
 export default class News extends Component {
   render() {
     return (
